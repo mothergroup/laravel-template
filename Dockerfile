@@ -6,3 +6,6 @@ RUN         php -r "copy('https://getcomposer.org/installer', 'composer-setup.ph
             php composer-setup.php && \
             php -r "unlink('composer-setup.php');" && \
             mv composer.phar /usr/local/bin/composer
+
+COPY        ./src /var/www/html
+WORKDIR     /var/www/html
