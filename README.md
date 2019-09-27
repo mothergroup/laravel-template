@@ -4,7 +4,7 @@ A pretty simplified docker-compose workflow that sets up a LEMP network of conta
 
 ## Usage
 
-To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository. Add your entire Laravel project to the `src` folder, then open a terminal and from this cloned respository's root run `docker-compose up -d --build`. 
+To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository. Then open a terminal and from this cloned respository's root run `docker-compose up -d --build`. 
 
 Connect with the docker container using `docker exec -it php sh` and run the following:
 
